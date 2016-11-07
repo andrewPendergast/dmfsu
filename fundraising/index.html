@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<!-- BEGIN DOCUMENT -->
+<html>
+<!-- ================================================================= -->
+<!-- HEADER -->
+<head>
+<!--
+	AUTHOR: FSU Dance Marathon
+	LAST UPDATED ON: August 25th, 2015
+	PLATFORM: HTML
+-->
+	<title>Fundraising - Dance Marathon at Florida State University</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="An annual 40-hour event at Florida State University where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. ">
+	<meta name="keywords" content="FSU, Florida, State, University, Dance, Marathon, CMN, FTK, Fundraising">
+	<meta name="author" content="Dance Marathon at Florida State University">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="../css/font.css" type="text/css">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link rel='stylesheet' href='../css/fullcalendar.css' type="text/css">
+	<link rel="stylesheet" href="../css/media_queries.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+	<link rel="manifest" href="../images/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="../images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41355078-3', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<![endif]-->
+</head>
+<!-- ================================================================= -->
+<!-- BODY -->
+<body>
+	<header class="main_h">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="container">
+					<a class="logo" href="../"><img src="../images/logoSmall.png" alt="Mini Logo"/></a>
+					<div class="mobile-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="../about">About</a></li>
+							<li><a href="../involvement">Get Involved</a></li>
+							<li><a href="../family">Family</a></li>
+							<li><a href="../events">Events</a></li>
+							<li><a href="../sponsors">Sponsors</a></li>
+							<li><a class="activeLink" href="../fundraising">Fundraising</a></li>
+							<li><a href="../contact">Contact Us</a></li>
+							<li><a class="donate" style="font-size: 14px;" href="http://events.dancemarathon.com/event/dmfsu/">Donate Now</a></li>
+							<li>
+								<a href="http://urlgeni.us/facebook/dmfsu" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a href="http://urlgeni.us/twitter/DM_FSU" target="_blank"><i class="fa fa-twitter"></i></a>
+								<a href="http://urlgeni.us/instagram/dmfsu" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://dmatfsu.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="pageHeader" id="fundHeader">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Fundraising<br><small><span>Find tips that will assist you in your fundraising efforts.</span></small></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class="row">
+			<div class="col-xs-12" id="smallDisplay">
+				<div class="list-group">
+					<!--<a href="#milestones" class="list-group-item">
+						Miracle Milestones
+					</a>-->
+					<a href="#tips" class="list-group-item">
+						Fundraising Tips
+					</a>
+					<a href="#letter" class="list-group-item">
+						Letter Writing Campaign
+					</a>
+					<a href="#socks" class="list-group-item">
+						DivvyUp + Dance Marathon Socks
+					</a>
+					<a href="#sponsorDancer" class="list-group-item">
+						Sponsor a Dancer
+					</a>
+					<a href="#dmail" class="list-group-item">
+						D’Mails
+					</a>
+					<a href="#canning" class="list-group-item">
+						Canning
+					</a>
+					<a href="#fifty" class="list-group-item">
+						50 Ways to Fundraise!
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class= "row">
+			<div class="col-md-9">
+				<!--<section id="weekofwhy" class="group">
+					<div class="row">
+						<div class="col-xs-12">
+							<img src="../images/weekofwhy.jpg" class="img-responsive"/>
+						</div>
+					</div>
+					<div id="weeks1">
+						<div class="row">
+							<div class="col-md-2 col-md-offset-1">
+								<a data-toggle="modal" data-target="#mondayModal"><img src="../images/monday.jpeg" class="img-responsive img-circle" >
+									<h4 class="text-center">Monday</h4></a>
+							</div>
+							<div class="col-md-2">
+								<a data-toggle="modal" data-target="#tuesdayModal"><img src="../images/tuesday.jpeg" class="img-responsive img-circle" >
+									<h4 class="text-center">Tuesday</h4></a>
+							</div>
+							<div class="col-md-2">
+								<a data-toggle="modal" data-target="#wednesdayModal"><img src="../images/wednesday.jpeg" class="img-responsive img-circle" >
+									<h4 class="text-center">Wednesday</h4></a>
+							</div>
+							<div class="col-md-2">
+								<a data-toggle="modal" data-target="#thursdayModal"><img src="../images/thursday.jpeg" class="img-responsive img-circle" >
+									<h4 class="text-center">Thursday</h4></a>
+							</div>
+							<div class="col-md-2">
+								<a data-toggle="modal" data-target="#fridayModal"><img src="../images/friday.jpeg" class="img-responsive img-circle" >
+									<h4 class="text-center">Friday</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<br />
+								<p class="text-center"><a class="btn btn-default btn-lg" href="http://events.dancemarathon.com/event/dmfsu/" style ="word-wrap: break-word;" target="_blank">Donate Now</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="weeks2">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="text-center"><a class="btn btn-default btn-lg" href="http://events.dancemarathon.com/event/dmfsu/" style ="word-wrap: break-word;" target="_blank">Donate Now</a></p>
+								<br />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-8 col-xs-offset-2">
+								<a data-toggle="modal" data-target="#mondayModal"><img src="../images/monday.jpeg" class="img-responsive img-circle" >
+									<h3 class="text-center">Monday</h3></a>
+							</div>
+							<div class="col-xs-8 col-xs-offset-2">
+								<a data-toggle="modal" data-target="#tuesdayModal"><img src="../images/tuesday.jpeg" class="img-responsive img-circle" >
+									<h3 class="text-center">Tuesday</h3></a>
+							</div>
+							<div class="col-xs-8 col-xs-offset-2">
+								<a data-toggle="modal" data-target="#wednesdayModal"><img src="../images/wednesday.jpeg" class="img-responsive img-circle" >
+									<h3 class="text-center">Wednesday</h3></a>
+							</div>
+							<div class="col-xs-8 col-xs-offset-2">
+								<a data-toggle="modal" data-target="#thursdayModal"><img src="../images/thursday.jpeg" class="img-responsive img-circle" >
+									<h3 class="text-center">Thursday</h3></a>
+							</div>
+							<div class="col-xs-8 col-xs-offset-2">
+								<a data-toggle="modal" data-target="#fridayModal"><img src="../images/friday.jpeg" class="img-responsive img-circle" >
+									<h3 class="text-center">Friday</h3></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" tabindex="-1" role="dialog" id="mondayModal" aria-labelledby="Week of Why: Monday">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="gridSystemModalLabel">Week of Why</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-xs-12">
+											<h1>Monday</h1>
+											<p>This week we are focusing on the why of our organization and sharing this purpose with others! Today’s focus is on our Children’s Miracle Network hospital, <strong>Shands Children’s Hospital</strong>, in Gainesville. Please feel free to use any of these tools as resources today to help in your fundraising!
+											</p>
+											<h2>Facebook Status Examples:</h2>
+											
+											<ul>
+												<li><p>TODAY Dance Marathon at Florida State is For Shands #beCAUSE more than 7,000 children were treated at Shands Children’s Hospital last year and 50% of our fundraising is FOR THE KIDS. Help me reach my goal and donate so more miracles can happen this year!</p></li>
+											
+												<li><p>DID YOU KNOW 62 children enter a Children’s Miracle Network Hospital every minute? Luckily #beCAUSE of Shands Children’s Hospital in Gainesville these children can be treated by the top pediatric surgeons in not only the state but the NATION!! Today Dance Marathon at Florida State is #ForShands. Help me reach my goal and donate today!</p></li>
+												
+												<li><p>This past year, I was able to pay a visit to Shands Children’s Hospital in Gainesville after raising $100 for Dance Marathon at Florida State University. This experience was unforgettable as I was able to see, firsthand, how the funds we raise through Dance Marathon at FSU directly impact the children and families in need of intensive medical care. After my trip to Shands, I am now even more motivated to see more miracles happen at Dance Marathon where I pledge to stand for 20 hours for those who can’t! Please help us make more miracles for the families like the ones I was able to witness on my own trip!</p></li>
+											</ul>
+											
+											<h2>Email Template to Send to Potential Donors:</h2>
+											<p>Hello ________!</p>
+											<p>During my time at Florida State University, I have dedicated myself to supporting an organization called Dance Marathon. To give you a little background, Dance Marathon at Florida State University is the largest student-run philanthropy on our campus and, this year, I am looking forward to dancing in this year’s event. DM at FSU is a year-long effort that culminates into an annual 40-hour event, where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. Over the past 20 years, DM at FSU has raised over $6 million for our local Children's Miracle Network Hospital, Shands Children's Hospital, and the FSU College of Medicine Pediatric Outreach Program. In 2015, DM at FSU raised a grand total of $1,100,645.52 For The Kids. These funds make the difference in providing the medical care, treatment, and research needed at our local Children's Miracle Network Hospital and the FSU College of Medicine!</p>
+											<p>I am writing to you today asking for your support in our goal as we participate in our Week of Why. Today, February 8, 2016, Dance Marathon at Florida State University has set a goal to focus our fundraising on our beneficiary Shands Children’s Hospital, our Local Children’s Miracle Network Hospital. Each minute 62 children enter a Children’s Miracle Network Hospital and today you have the opportunity to impact their hospital experience. Every penny counts on our journey to make miracles for these children and families in need, and I would appreciate any support you are able to provide today- whether that be a personal donation or even just spreading the word about our goal for the day!</p>
+											<p>If you would like to take part in this incredible movement today, the donation link can be found at:</p>
+											<p>All donations are tax deductible and every little bit goes directly to making miracles for kids and families that are in need in the local Florida State community. Thank you so much for your time and if you would like more information on our cause and who we benefit, please check out our website at dmfsu.org.</p>
+											
+											<p>FTK,</p> 
+											<h2>Children’s Miracle Network Blog:</h2>
+											<a href="http://blog.childrensmiraclenetworkhospitals.org/2012/03/photo-friday-part-3.html" target="_blank">http://blog.childrensmiraclenetworkhospitals.org/2012/03/photo-friday-part-3.html</a>
+											<h2>Children’s Miracle Network Photos to Share:</h2>
+											<ul>
+												<li><a href="https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454516996./10154480107979535/?type=3&amp;theater" target="_blank">https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454516996./10154480107979535/?type=3&amp;theater</a></li>
+												<li><a href="https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154418033744535/?type=3&amp;theater" target="_blank">https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154418033744535/?type=3&amp;theater</a></li>
+												<li><a href="https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154405956924535/?type=3&amp;theater" target="_blank">https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154405956924535/?type=3&amp;theater</a></li>
+												<li><a href="https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154333998724535/?type=3&amp;theater" target="_blank">https://www.facebook.com/cmnhospitals/photos/pb.30410334534.-2207520000.1454517012./10154333998724535/?type=3&amp;theater
+												</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" tabindex="-1" role="dialog" id="tuesdayModal" aria-labelledby="Week of Why: Tuesday">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="gridSystemModalLabel">Week of Why</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-xs-12">
+											<h1>Tuesday</h1>
+											<p>This week we are focusing on the why of our organization and sharing this purpose with others! Today’s focus is on our local beneficiaries through the <strong>Florida State University College of Medicine Pediatric Outreach Programs</strong>. Please feel free to use any of these tools as resources today to help in your fundraising!
+											</p>
+											
+											<h2>Facebook Status Examples:</h2>
+											
+											<ul>
+												<li><p>There’s no place like home. Right on our campus we have the FSU College of Medicine Pediatric Outreach Program, where half of our proceeds go to benefit kids locally. Why? #beCAUSE it supports #OurCommunity, #OurCause, and helps us make #InfiniteMiracles. Please consider donating to my page today!</p></li>
+											
+												<li><p>DID YOU KNOW: Last year, Dance Marathon at Florida State University donated over $500,000 to the FSU College of Medicine Pediatric Outreach Programs?! I ask that you consider donating to #OurCause to join #OurCommunity and create #InfiniteMiracles!  
+												</p></li>
+												
+												<li><p>Be the BOMB.COM (get it?), and donate to help the FSU College of Medicine Pediatric Outreach Program! Support #OurCause and join #OurCommunity in providing services and making miracles for these children in need.</p></li>
+											</ul>
+											
+											<h3>Email Template to Send to Potential Donors:</h3>
+											<h4>Big Bend Hospice Status:</h4>
+											<p>Dance Marathon at FSU not only raises money for the Children’s Miracle Network but half of the money raised goes to our community beneficiaries like Big Bend Hospice.  The money we raise allows Big Bend Hospice to continue the amazing work they do, allowing families and their loved ones to live their lives to the fullest.  They create comfortable and peaceful environments for people to enjoy precious moments with their loved ones.  Click the link below to learn more and consider donating today!</p>
+											<p><a href="https://www.bigbendhospice.org" target="_blank">https://www.bigbendhospice.org</a></p>
+											
+											<h4>Tallahassee Memorial Healthcare Status:</h4>
+											<p>Dance Marathon at FSU not only raises money for the Children’s Miracle Network but half of the money raised goes to our community beneficiaries like Big Bend Hospice.  The money we raise allows Big Bend Hospice to continue the amazing work they do, allowing families and their loved ones to live their lives to the fullest.  They create comfortable and peaceful environments for people to enjoy precious moments with their loved ones.  Click the link below to learn more and consider donating today!</p>
+											<h4>Gadsden County Status:</h4>
+											<p>The donations we receive through Dance Marathon at FSU benefits the kids of Gadsden County who can not afford to receive proper medical care such as physicals, eye exams and dental work.  With the donations you are giving, kids get the opportunity to be kids! These medical treatments allow them stay enrolled in school, an opportunity a lot of us take for granted. Please consider donating to this cause today to make a difference in the local Tallahassee community!</p>
+											<h3>Email Template to Send to Potential Donors:</h3>
+											<p>Hello ________!</p>
+											<p>During my time at Florida State University, I have dedicated myself to supporting an organization called Dance Marathon. To give you a little background, Dance Marathon at Florida State University is the largest student-run philanthropy on our campus and, this year, I am looking forward to dancing in this year’s event. DM at FSU is a year-long effort that culminates into an annual 40-hour event, where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. Over the past 20 years, DM at FSU has raised over $6 million for our local Children's Miracle Network Hospital, Shands Children's Hospital, and the FSU College of Medicine Pediatric Outreach Program. In 2015, DM at FSU raised a grand total of $1,100,645.52 For The Kids. These funds make the difference in providing the medical care, treatment, and research needed at our local Children's Miracle Network Hospital and the FSU College of Medicine!</p>
+											<p>I am writing to you today asking for your support in our goal as we participate in our Week of Why. Today, February 9, 2016, Dance Marathon at Florida State University has set a goal to focus our fundraising on our beneficiary  the FSU College of Medicine Pediatric Outreach Program, which distributes funds throughout the Tallahassee and Gadsden County areas to provide uncompensated medical care to kids and families in need. Every penny counts on our journey to make miracles for these children and families in need, and I would appreciate any support you are able to provide today- whether that be a personal donation or even just spreading the word about our goal for the day!</p>
+											<p>If you would like to take part in this incredible movement today, the donation link can be found at:</p>
+											<p>All donations are tax deductible and every little bit goes directly to making miracles for kids and families that are in need in the local Florida State community. Thank you so much for your time and if you would like more information on our cause and who we benefit, please check out our website at dmfsu.org.</p>
+											<p>FTK,</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" tabindex="-1" role="dialog" id="fridayModal" aria-labelledby="Week of Why: Friday">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="gridSystemModalLabel">Week of Why</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-xs-12">
+											<h1>Friday</h1>
+											<p>This week we are focusing on the why of our organization and sharing this purpose with others! Today’s focus is on the <strong>kids</strong> that we are able to impact through the funds raised by Dance Marathon at Florida State University. We will be also be <strong>paying it forward</strong> throughout the week to share the DM love! Please feel free to use any of these tools as resources today to help in your fundraising!
+											</p>
+											
+											<h2>Facebook Status Examples:</h2>
+											
+											<ul>
+												<li><p>Today I am #PayingItForward for the kids. I decided to donate to ________, because of all the inspiring things that you do for DM. Now I challenge you to #PayItForward for #OurCause to #OurCommunity to make #InfiniteMiracles.</li>
+											
+												<li><p>Paying it forward is the way to go
+													$5, $10, $20 if you say so
+													It’s all for the kids you can be a hero
+													So get those accounts up from zero
+												</p></li>
+												
+												<li><p>Thank you for all that you do for me
+													You are such a miracle maker everyone can see
+													You are so for the kids and deserve a high five 
+													So here’s $5 billz, LET’S GET LIVE! </p></li>
+												<li><p>What is the best thing to do when you get paid? Pay it forward of course. Today I am challenging myself and YOU to pay it forward today for the kids. So, join us today for #OurCommunity and #Ourcause to make #InfiniteMiracles.
+												</p></li>
+											</ul>
+											
+											<h2>Email Template to Send to Potential Donors:</h2>
+											<p>Hello ________!</p>
+											<p>During my time at Florida State University, I have dedicated myself to supporting an organization called Dance Marathon. To give you a little background, Dance Marathon at Florida State University is the largest student-run philanthropy on our campus and, this year, I am looking forward to dancing in this year’s event. DM at FSU is a year-long effort that culminates into an annual 40-hour event, where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. Over the past 20 years, DM at FSU has raised over $6 million for our local Children's Miracle Network Hospital, Shands Children's Hospital, and the FSU College of Medicine Pediatric Outreach Program. In 2015, DM at FSU raised a grand total of $1,100,645.52 For The Kids. These funds make the difference in providing the medical care, treatment, and research needed at our local Children's Miracle Network Hospital and the FSU College of Medicine!
+											</p>
+											<p>I am writing to you today asking for your support in our goal as we participate in our <strong>Week of Why</strong>. Today, <strong>February 12, 2016</strong>, Dance Marathon at Florida State University has set a goal to focus our fundraising on the <strong>kids</strong> our organization impacts through the funds we have raised for the past 21 years. As an organization, we fight today For The Kids of tomorrow and are striving to pay it forward daily! Every penny counts on our journey to make miracles for these children and families in need, and I would appreciate any support you are able to provide today- whether that be a personal donation or even just spreading the word about our goal for the day!
+											</p>
+											<p>If you would like to take part in this incredible movement today, the donation link can be found at:
+												
+												YOUR DONATION LINK HERE
+											</p>
+											<p>All donations are tax deductible and every little bit goes directly to making miracles for kids and families that are in need in the local Florida State community. Thank you so much for your time and if you would like more information on our cause and who we benefit, please check out our website at dmfsu.org.</p>
+											
+											<p>FTK,</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" tabindex="-1" role="dialog" id="wednesdayModal" aria-labelledby="Week of Why: Wednesday">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="gridSystemModalLabel">Week of Why</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-xs-12">
+											<h1>Wednesday</h1>
+											<p>This week we are focusing on the why of our organization and sharing this purpose with others! Today’s focus is on the <strong>tradition</strong> of Dance Marathon at Florida State University’s campus and the impact we have had over the past 21 years as an organization. Please feel free to use any of these tools as resources today to help in your fundraising!
+											</p>
+											<h2>Facebook Status Examples:</h2>
+											<ul>
+												<li><p>Dance Marathon has been a part of the Florida State University community for 21 years! This tradition began in 1996 and our founding team was able to raise over $19,000. This past year, we broke $1,000,000 for the first time in Florida State history! Help us continue to grow this tradition by supporting our cause today.</p> 
+												</li>
+												<li><p>Florida State University shines through their iconic colors of Garnet and Gold. Dance Marathon at the Florida State University shines through the miracles that we make for the kids. Today you can join #OurCommunity and help support #OurCause to make #InfiniteMiracles. SHINE BRIGHT!</p>
+												</li>
+												<li><p><strong>F-</strong> For the kids. For the miracles. For the change. </p>
+												<p><strong>S-</strong> Standing for those who can’t. </p>
+												<p><strong>U-</strong> U BETTER BELIEVE IT. Donate today!</p></li>
+												<li><p>Vires. Artes. Mores. Strength, skill, and character.  These traits make up are all characteristics of miracle children.  Each kid has strength to fight each day, the skill to remain positive, and character to celebrate and live their lives to the fullest. As a Florida State community, we strive to uphold these same values. Please consider being apart of this incredible Florida State tradition and donate to Dance Marathon at Florida State University today!
+												</p></li>
+											</ul>
+											<h2>Email Template to Send to Potential Donors:</h2>
+											<p>Hello ________!</p>
+											
+											<p>During my time at Florida State University, I have dedicated myself to supporting an organization called Dance Marathon. To give you a little background, Dance Marathon at Florida State University is the largest student-run philanthropy on our campus and, this year, I am looking forward to dancing in this year’s event. DM at FSU is a year-long effort that culminates into an annual 40-hour event, where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. Over the past 20 years, DM at FSU has raised over $6 million for our local Children's Miracle Network Hospital, Shands Children's Hospital, and the FSU College of Medicine Pediatric Outreach Program. In 2015, DM at FSU raised a grand total of $1,100,645.52 For The Kids. These funds make the difference in providing the medical care, treatment, and research needed at our local Children's Miracle Network Hospital and the FSU College of Medicine!</p>
+											<p>I am writing to you today asking for your support in our goal as we participate in our Week of Why. Today, February 10, 2016, Dance Marathon at Florida State University has set a goal to focus our fundraising on the tradition, legacy and impact our organization makes through the funds we have raised for the past 21 years. Every penny counts on our journey to make miracles for these children and families in need, and I would appreciate any support you are able to provide today- whether that be a personal donation or even just spreading the word about our goal for the day!</p>
+											<p>If you would like to take part in this incredible movement today, the donation link can be found at: YOUR DONATION LINK HERE</p>
+											<p>All donations are tax deductible and every little bit goes directly to making miracles for kids and families that are in need in the local Florida State community. Thank you so much for your time and if you would like more information on our cause and who we benefit, please check out our website at dmfsu.org.</p>
+											<p>FTK, </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" tabindex="-1" role="dialog" id="thursdayModal" aria-labelledby="Week of Why: Thursday">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="gridSystemModalLabel">Week of Why</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-xs-12">
+											<h1>Thursday</h1>
+											<p>This week we are focusing on the why of our organization and sharing this purpose with others! Today’s focus is on the <strong>families</strong> we support through the funds raised by Dance Marathon at Florida State University, as well as celebrating our own DM family. Please feel free to use any of these tools as resources today to help in your fundraising!
+											</p>
+											
+											<h2>Facebook Status Examples:</h2>
+											
+											<ul>
+												<li><p>Focusing on why I DM, today is a day to remember all the miracle families that Florida State University has had the opportunity to support for the past 21 years. Coming together with our community to create miracles for the kids, ultimately creates miracles for their families as well. Any selfless donation can begin this ripple effect of giving!</p></li>
+											
+												<li><p>We are family! Our families are the reason why we do what we do. The miracle children push us everyday to create #infinitemiracles. Join our family today by making a donation for #OurCommunity and #Ourcause for the kids!</p></li>
+												
+												<li><p>*Sing to the tune of Sister, Sister* “DM DM, never knew how much I loved you. Now that everybody knows, I’m gonna up my fundraising goooooaaal… DM, DM!”  Help me today in making #InfiniteMiracles for the kids and their families by donating to my fundraising page!</p></li>
+											</ul>
+											
+											<h2>Email Template to Send to Potential Donors:</h2>
+											<p>Hello ________!</p>
+											<p>During my time at Florida State University, I have dedicated myself to supporting an organization called Dance Marathon. To give you a little background, Dance Marathon at Florida State University is the largest student-run philanthropy on our campus and, this year, I am looking forward to dancing in this year’s event. DM at FSU is a year-long effort that culminates into an annual 40-hour event, where more than 1,800 students stay awake and on their feet to raise money and awareness for our local beneficiaries. Over the past 20 years, DM at FSU has raised over $6 million for our local Children's Miracle Network Hospital, Shands Children's Hospital, and the FSU College of Medicine Pediatric Outreach Program. In 2015, DM at FSU raised a grand total of $1,100,645.52 For The Kids. These funds make the difference in providing the medical care, treatment, and research needed at our local Children's Miracle Network Hospital and the FSU College of Medicine!
+											</p>
+											<p>I am writing to you today asking for your support in our goal as we participate in our <strong>Week of Why</strong>. Today, <strong>February 11, 2016</strong>, Dance Marathon at Florida State University has set a goal to focus our fundraising on the <strong>families</strong> our organization impacts through the funds we have raised for the past 21 years. We are expressing why we choose to make miracles for the kids, what inspires us to stand and be leaders in our organizations. Every penny counts on our journey to make miracles for these children and families in need, and I would appreciate any support you are able to provide today- whether that be a personal donation or even just spreading the word about our goal for the day!
+												
+											</p>
+											<p>If you would like to take part in this incredible movement today, the donation link can be found at:
+												
+												YOUR DONATION LINK HERE
+											</p>
+											<p>All donations are tax deductible and every little bit goes directly to making miracles for kids and families that are in need in the local Florida State community. Thank you so much for your time and if you would like more information on our cause and who we benefit, please check out our website at dmfsu.org.</p>
+											
+											<p>FTK,</p>
+											<h2>Thank You Video from the Families:</h2>
+											<a href="https://vimeo.com/151331723" target="_blank">https://vimeo.com/151331723</a>
+											<h2>Links to Miracle Stories to Share:</h2>
+											<ul>
+												<li>Katie from Florida: <a href="http://childrensmiraclenetworkhospitals.org/About/Champions/2015/FL" target="_blank">http://childrensmiraclenetworkhospitals.org/About/Champions/2015/FL</a></li>
+												<li>Taylor from Georgia: <a href="http://childrensmiraclenetworkhospitals.org/About/Champions/2015/GA" target="_blank">http://childrensmiraclenetworkhospitals.org/About/Champions/2015/GA</a></li>
+												<li>James from Alabama: <a href="http://childrensmiraclenetworkhospitals.org/About/Champions/2015/AL" target="_blank">http://childrensmiraclenetworkhospitals.org/About/Champions/2015/AL</a></li>
+											</ul>
+											<h2>Face in a Hole Awkward Family Photos (for a little DM fun!):</h2>
+											<a href="http://www.faceinhole.com/v2/browse.asp?searchfield=family" target="_blank">http://www.faceinhole.com/v2/browse.asp?searchfield=family</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>-->
+				<section id="tips" class="group">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>Fundraising Tips</h1>
+							<p>Every penny counts when you are fighting for miracles in children’s lives. The money that Dance Marathon at Florida State University raises benefits our local Children’s Miracle Network Hospital and the College of Medicine’s Pediatric Outreach program make these miracles a reality in the lives of many children and their families. There are endless ways we can fundraise for the kids, follow the link below there are some easy and compelling resources.</p>
+						</div>
+					</div>
+				</section>
+				<section id="letter">
+					<div class="row">
+						<div class="col-md-9">
+							<h1>Letter Writing Campaign</h1>
+							<p>Letter writing with the letter template provided by DM at FSU is one of the easiest ways to raise money on behalf of the kids.</p>
+						
+							<p><a class="btn btn-default btn-lg btn-transparent" href="lwc.pdf" role="button" target="_blank"><i class="fa fa-file-pdf-o" style="font-size: 20px;"></i>&nbsp; Letter writing template</a></p>
+						</div>
+						<div class="col-md-3 text-center">
+							<img src="../images/writing.png" alt="Writing" />
+						</div>
+					</div>
+					<div class="row subgroup" id="checklist">
+						<div class="col-xs-12">
+							<h2>To Write A Successful Letter Review the Following Checklist:</h2>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Collect addresses by asking parents for their address book or Holiday card address list!
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Click here to download the letter to send to your friends and family.
+									
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Add a personal note to the letter template or on the outside of the envelope
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Appropriately address the envelope to the recipient in the center of the envelope and include your return address in the left corner.
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Don’t forget a stamp in the right-hand corner!
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Thank everyone who sends a donation -- this is the most important part of any fundraiser!  
+								</label>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="socks" class="group">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>DivvyUp + Dance Marathon Socks</h1>
+							<p>DivvyUp and Dance Marathon at FSU have paired up to create a unique fundraising idea for our dancers. With the purchase of every pair of socks DivvyUp will donate $5 to the dancer of your choice and a pair of socks to those in need. Be sure to share the link with friends, family, and relatives to take full advantage of this amazing opportunity to be FTK, but benefit the Tallahassee community as well.
+							</p>
+							<p><a class="btn btn-default btn-lg btn-transparent" href="https://www.divvyupsocks.com/dmfsu/" target="_blank" role="button" target="_blank">Buy Now</a></p>
+						</div>
+						<div class="col-md-12">
+							<img src="../images/socks.jpg" alt="socks" class="img-responsive center-block"/>
+						</div>
+					</div>
+				</section>
+				<section id="sponsorDancer" class="group">
+					<div class="row">
+						<div class="col-md-9">
+							<h1>Sponsor a Dancer</h1>
+							<p>We have found that businesses can generally donate more towards your goal than personal donations can. Therefore, by using the sponsorship letter, you can do less work, for more! We encourage you to print this out and bring it (or even email it) to those businesses that may support you. And remember, a personal touch of your very own always helps when reaching out! 
+							</p>
+							<p><em>Sponsorship letter template coming soon!</em></p>
+						</div>
+						<div class="col-md-3 text-center">
+							<img src="../images/sponsorDeal.svg" alt="Sponsor a Dancer" />
+						</div>
+					</div>
+					<div class="row subgroup" id="sellingSponsor">
+						<div class="col-xs-12">
+							<h2>Selling Dance Marathon to Sponsors</h2>
+							<ul>
+								<li>Your tax deductible donation benefits local Tallahassee families through Children's Miracle Network and the FSU College of Medicine that are affected by pediatric health issues.</li>
+								<li>Not only do you support the families and children, you're also supporting me as a dancer (fundraiser) so that I might reach my fundraising goal and be able to participate as a dancer.</li>
+								<li>Benefits to the sponsor include various levels of branding exposure methods, coupled with the genuine joy of giving.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section id="dmail" class="group">
+					<div class="row">
+						<div class="col-md-3 text-center">
+							<img src="../images/dmail.png" alt="Email" />
+						</div>
+						<div class="col-md-9">
+							<h1>D’Mails</h1>
+							<p>Sending emails is a quick and simple way for everyone involved in Dance Marathon at FSU to fundraise. The more emails sent out the better! 
+							</p>
+						</div>
+					</div>
+					<div class="row subgroup" id="steps">
+						<div class="col-xs-12">
+							<h2>Steps on Sending D-Mails through your personal Fundraising Page:</h2>
+							<ol>
+								<li>Log-in to your personal fundraising page.</li>
+								<li>Click on your Dashboard.</li>
+								<li>Under "Ask Friends to Donate," click "Create a Message."</li>
+								<li>Add your contacts, personalize the email and send!</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row subgroup" id="emailTips"> 
+						<div class="col-xs-12">
+							<h2>Tips on Putting Together An Inspiring Email:</h2>
+							<p>These small details make a big difference when inspiring others to donate to your personal page! They can be edited by clicking "Edit Your Page" on your account's Dashboard.</p>
+							<ul>
+								<li>Include your personal story on how you got involved with Dance Marathon, what it means to you, and why YOU stand for the kids.</li>
+								<li>Edit the email template to make it more personal and clear based on who you are sending it to (friends, family, friends of parents, etc.)</li>
+								<li>
+									Personalize your online fundraising page by:
+									<ul>
+										<li>Changing and personalizing the picture on the site</li>
+										<li>Include your story on your fundraising page to share with potential donors</li>
+										<li>Adding a fundraising goal</li>
+									</ul>
+								</li>
+								<li>If emails go unanswered follow up with phone calls or reminder emails!</li>
+								<li>For those potential donors who are not as familiar with emails check out our Letter Writing Template.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				
+				<section id="canning">
+					<div class="row">
+						<div class="col-md-3 text-center">
+							<img src="../images/can.png" alt="Canning" />
+						</div>
+						<div class="col-md-9">
+							<h1>Canning</h1>
+							<p>During the Fall, DM at FSU holds DM Tailgates that are full of miracle making! There is food, canning, games, friendships and tons of FTK fun involved. Our sponsors allow us to provide various snacks for fundraisers that come out to raise money and awareness for our cause! The DM tailgates provide opportunities for dancers to go to the various tailgates on game days and spread awareness about our cause to the greater Tallahassee community. Canning is a great way to raise money for your personal fundraising account, and also get to know the Dance Marathon at FSU family! 
+							</p>
+						</div>
+					</div>
+					<div class="row subgroup" id="sellingCanning">
+						<div class="col-xs-12">
+							<h2>Selling Dance Marathon while Canning</h2>
+							<ul>
+								<li>Dance Marathon benefits  Shands Children’s Hospital, our local Children’s Miracle Network Hospital, as well as FSU’s Pediatric program. This is what makes it For the Kids!</li>
+								<li>It is FSU’s largest student-run philanthropy (meaning it is the largest student run organization that raises funds for a cause)</li>
+								<li>This is Dance Marathon’s 21st year, which comes with bigger and better goals!</li>
+								<li>Since Dance Marathon at FSU was founded in 1996, we have raised over $5 million dollars</li>
+								<li>Dance Marathon is an organization that fundraises all year leading up to the Marathon where students volunteer to stand for 20 hours (there are two 20 hour shifts)</li>
+								<li>The reason we stand for 20 hours is in honor of those children who can’t. We give a weekend to save a life.</li>
+								<li>By donating to this cause YOU could contribute to making a difference in the life of a child and their family.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row subgroup" id="fall">
+						<div class="col-xs-12">
+							<h2>Fall Semester Canning</h2>
+							<p>Dance Marathon at FSU provides this strategy as a method of fundraising for all participants at two home football games during the Fall semester. Be on the lookout for the canning dates for the 2015 Football Season, and as always Go Noles!
+							</p>
+						</div>
+					</div>
+					<div class="row subgroup" id="spring">
+						<div class="col-xs-12">
+							<h2>Spring Semester Canning</h2>
+							<p>As the games at Doak have come to a close, we still encourage the use of &#34;canning&#34; in your local neighborhoods, organizations, or at businesses that you have received permission. During the spring semester, Dance Marathon will be providing an opportunity to "can" in front of a local Walmart with other DM friends, so be on the look out for that date!
+							</p>
+						</div>
+					</div>
+				</section>
+				<section id="fifty" class="group">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>50 Ways to Fundraise!</h1>
+							<ol>
+								<li>Shave your head/dye your hair when you raise a certain amount of money</li>
+								<li>Post a funny picture on Facebook or instagram for each donation received</li>
+								<li>Have stuff you don’t want anymore? Sell it on a website!</li>
+								<li>Babysit and have a &#37; of your earnings go to your fundraising account</li>
+								<li>Have a yard or garage sale</li>
+								<li>Mow lawns</li>
+								<li>Have a bake sale</li>
+								<li>Throw a party and charge people to get in or participate</li>
+								<li>Host a dinner</li>
+								<li>Bring old clothes to Plato’s closet</li>
+								<li>Text everyone you know!</li>
+								<li>Send emails and follow through with phone calls</li>
+								<li>Give rides to class for a donation</li>
+								<li>Be the taxi for the night and ask friends for donations when you drop them off or pick them up</li>
+								<li>Host a car wash</li>
+								<li>Be the delivery man/woman for the night and bring friends food or coffee while studying</li>
+								<li>Ask 20 family and friends to donate $10 to sponsor you for every hour of the Marathon (That’s $200!)</li>
+								<li>Put a bucket outside your work for spare change donations (with permission of course!)</li>
+								<li>Regularly post your fundraising page on social media</li>
+								<li>Have your parents post your fundraising page on their Facebook pages</li>
+								<li>Contact old teachers/professors</li>
+								<li>Do your friends’ laundry</li>
+								<li>Keep a change jar!</li>
+								<li>Utilize the letter template and send handwritten letters!</li>
+								<li>Bake cookies/brownies for donations</li>
+								<li>Artistic? make personalized items and sell for a donation</li>
+								<li>Wear/do something crazy in public when you reach a certain monetary goal</li>
+								<li>Do housework/errands for a donation</li>
+								<li>Walk dogs or dog-sit</li>
+								<li>Sell back your old textbooks</li>
+								<li>Ask for donations on behalf of the holidays and your Birthday!</li>
+								<li>Ask companies if they will match how much you fundraise within a certain period of time</li>
+								<li>Tweet at celebrities</li>
+								<li>Utilize the sponsorship letter(Coming soon) and ask local businesses, past job sites, and your high schools if they would be willing to sponsor you to participate in Dance Marathon.</li>
+								<li>Buy a dozen donuts and sell each donut for &#36;1; do the same with a box of pizza!</li>
+								<li>Ask friends/family to send a mass email on your behalf</li>
+								<li>Share your story and let people know why you are passionate</li>
+								<li>Ask for &quot;dare donations&quot; and allow your friends to dare you to do something if they donate a certain amount</li>
+								<li>Talented? Write a song, perform a rap, write a poem, or perform a dance move for every donor who donates to your page and post it on social media</li>
+								<li>Ask professors if you are able to can in class</li>
+								<li>Go canning! (football weekends and other shops, malls, and areas you are able to get permission from)</li>
+								<li>Set a fundraising goal and if it is reached set out a challenge that you will do (ex: run a marathon, serenade President Thrasher, be creative!)</li>
+								<li>Participate in all DM at FSU fundraising campaigns!</li>
+								<li>Save $1 each day leading up to the marathon</li>
+								<li>Go Holiday (or any other time)  Caroling for donations</li>
+								<li>Make a deal with your parents for every &#39;A&#39; you receive on a test, quiz, paper, etc. they will donate a certain amount to your account</li>
+								<li>Hold some sort of challenge (corn hole, baking, etc.) with a fee to participate and the winner receives the money entered to win into their fundraising account</li>
+								<li>Challenge Facebook/Instagram/Twitter friends to donate to your page through creative, original posts</li>
+								<li>Run or bike a marathon for donations!</li>
+								<li>Write a letter to family and friends describing what being FTK means to you! Share your passion</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+			</div>
+			<nav class="col-md-3 bs-docs-sidebar">
+				<div id="largeDisplay">
+					<ul class="nav nav-stacked" id="sidebar">
+						<li>
+							<a href="#tips">Fundraising Tips</a>
+						</li>
+						<li>
+							<a href="#letter">Letter Writing Campaign</a>
+							<ul class="nav nav-stacked">
+								<li>
+									<a href="#checklist">Checklist</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#socks">DivvyUp + Dance Marathon Socks</a>
+						</li>
+						<li>
+							<a href="#sponsorDancer">Sponsor a Dancer</a>
+							<ul class="nav nav-stacked">
+								<li>
+									<a href="#sellingSponsor">Selling Dance Marathon to Sponsors</a>
+								</li>
+							</ul>
+						</li>
+	    				<li>
+							<a href="#dmail">D’Mails</a>
+							<ul class="nav nav-stacked">
+								<li>
+									<a href="#steps">Sending D-Mails</a>
+								</li>
+								<li>
+									<a href="#emailTips">Putting Together An Inspiring Email</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#canning">Canning</a>
+							<ul class="nav nav-stacked">
+								<li>
+									<a href="#sellingCanning">Selling Dance Marathon while Canning</a>
+								</li>
+								<li>
+									<a href="#fall">Fall Semester Canning</a>
+								</li>
+								<li>
+									<a href="#spring">Spring Semester Canning</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#fifty">50 Ways to Fundraise!</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<hr>
+	<section class="footer">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xs-12">
+					A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL FREE 1-800-435-7352 WITHIN THE STATE. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE.
+					<br>
+					<br>
+					If you prefer not to be contacted for future fundraising activities, please notify us, including your full name, address, and phone number, and send to: Shands Privacy, P.O. Box 103175, Gainesville, FL 32610-3175. You may email your request to <a href="mailto:privacy@shands.ufl.edu" target="_blank">privacy@shands.ufl.edu</a>, call 1-866-682-2372 or visit <a href="http://giving.ufandshands.org/opt-out" target="_blank">http://giving.ufandshands.org/opt-out</a>.
+					<br>
+					<br>
+					<ul>
+						<li><a href="../contact">Contact Us</a> | </li>
+						<li><a href="mailto:amp12f@my.fsu.edu" target="_top">Dance Marathon Webmaster</a> | </li>
+						<li><a href="http://www.fsu.edu/misc/policy.html" target="_blank">FSU Privacy Policy</a> | </li>
+						<li><a href="../references">References to technologies used</a></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/dmfsu.js"></script>
+	<script type="text/javascript" src="../js/scroll.js"></script>
+</body>
+</html>

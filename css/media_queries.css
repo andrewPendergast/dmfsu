@@ -1,0 +1,228 @@
+/*Large Devices, Wide Screens*/
+@media only screen and (min-width : 1200px) {
+	.hero h1{
+		font-size: 100px;
+	}
+	.hero h2{
+		font-size: 35px;
+	}	
+}
+/*======================================================================*/
+/*Medium Devices, Desktops*/
+@media only screen and (max-width : 992px) {
+	#largeDisplay{
+		display: none;
+	}
+	#weeks1{
+		display: none;
+	}
+	.main_h nav ul a {
+		font-size: 11px;
+	}
+	.main_h .fa-facebook{
+		font-size: 13px;
+	}
+	.main_h .fa-twitter{
+		font-size: 13px;
+		margin-left: 13px;
+	}
+	.main_h .fa-instagram{
+		font-size: 13px;
+		margin-left: 13px;
+	}
+	.main_h .fa-wordpress{
+		font-size: 13px;
+		margin-left: 13px;
+	}
+	#clockdiv h1{
+		font-size: 3em;
+	}
+	#statement_miracle img{
+		padding-top: 25px;
+	}
+    .live{
+        height: 100%;
+    }
+}
+@media only screen and (min-width : 992px) {
+	#smallDisplay, #weeks2{
+		display: none;
+	}
+	
+}
+/*======================================================================*/
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+	.main_h {
+		padding-top: 25px;
+	}
+	.logo {
+		float: none;
+	}
+	.main_h nav {
+		width: 100%;
+	}
+	.main_h nav ul {
+		padding-top: 10px;
+		margin-bottom: 22px;
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+	.main_h nav ul li {
+		width: 100%;
+		padding: 7px 0;
+		margin: 0;
+	}
+	.mobile-toggle {
+		display: block;
+	}
+	.arrow{
+		bottom: 75px;
+	}
+	.logo{
+		margin-top: -7px;
+	}
+	.main_h .fa-facebook{
+		font-size: 20px;
+	}
+	.main_h .fa-twitter{
+		margin-left: 40px;
+		font-size: 20px;
+	}
+	.main_h .fa-instagram{
+		margin-left: 40px;
+		font-size: 20px;
+		
+	}
+	.main_h .fa-wordpress{
+		margin-left: 40px;
+		font-size: 20px;
+	}
+	#com img, #cmn img, #familyDescription img, #familyTailgate img, #homecomingParade img, #footballPractice img, #sponsorDancer img, #dmail img, #letter img, #canning img{
+		width: 50%;
+	}
+	#statement_miracle img{
+		padding-top: 25px;
+	}	
+}
+@media only screen and (min-width: 768px) {
+	.hero h1{
+		font-size: 75px;
+	}
+	.hero h2{
+		font-size: 30px;
+	}
+	#com img, #cmn img, #familyDescription img, #familyTailgate img, #homecomingParade img, #footballPractice img, #sponsorDancer img, #dmail img, #letter img, #canning img{
+		width: 100%;
+	}	
+	#lineBreak{
+		display: none;
+	}
+}
+/*======================================================================*/
+/*Extra Small Devices*/
+@media only screen and (max-width: 480px) {
+	#com img, #cmn img, #familyDescription img, #familyTailgate img, #homecomingParade img, #footballPractice img, #sponsorDancer img, #dmail img, #letter img, #canning img{
+		width: 100%;
+	}
+	#overlay{
+		height: 320px;
+		width: 320px;
+	}
+	.text h2{
+		font-size: 1.2em;
+	}
+	#overlay{
+		width: 240px;
+		height: 240px;
+	}
+	#statement_title h1{
+		font-size: 4em;
+	}
+	#statement_title h2{
+		font-size: 2.5em;
+	}
+	#clockdiv h1{
+		font-size: 2em;
+	}
+	#statement_button .btn-default{
+		padding: 14px 24px;
+		font-size: 18px;
+	}
+	#statement_miracle h1{
+		font-size: 2em;
+		text-align: center;
+	}
+	#statement_miracle li{
+		font-size: 1.5em;
+	}
+}
+@media only screen and (min-width: 480px) {
+	#sidebar.affix-top {
+		position: static;
+		margin-top:65px;
+	}
+	#sidebar.affix {
+		position: fixed;
+		top:65px;
+  	}
+}
+@media only screen and (max-width: 320px){
+	.hero{
+		padding-top: 10px;
+	}
+	#statement_title h1{
+		font-size: 3em;
+	}
+	.commaClub{
+		font-size: 1.1em;
+	}
+	.text{
+		padding-top: 15%;
+	}
+	.arrow{
+		display: none;
+	}
+}
+/*======================================================================*/
+/*iOS Devices*/
+@media only screen and (max-width: 768px) and (max-height: 1024px){
+	.hero, #apps, .glass, .stats{
+		background-attachment: initial;
+	}
+}
+@media only screen and (max-width: 1024px) and (max-height: 768px){
+	.hero, #apps, .glass, .stats{
+		background-attachment: initial;
+	}
+	.arrow{
+		bottom: 75px;
+	}
+}
+/*======================================================================*/
+/*ETC*/
+@media only screen and (max-height: 600px){
+	#overlay{
+		height: 320px;
+		width: 320px;
+
+	}
+	.text h2{
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-height: 400px){
+	.text{
+		padding-top: 5%;
+	}
+	#overlay{
+		width: 240px;
+		height: 240px;
+	}
+}
+@media only screen and (max-height: 300px){
+	#overlay{
+		top: 5%;
+	}
+}

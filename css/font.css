@@ -1,0 +1,38 @@
+/*JANDA MANATEE SOLID*/
+@font-face {
+    font-family: 'Janda Manatee Solid';
+    src: url('JandaManateeSolid/jandamanateesolid-webfont.eot');
+    src: url('JandaManateeSolid/jandamanateesolid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('JandaManateeSolid/jandamanateesolid-webfont.woff2') format('woff2'),
+         url('JandaManateeSolid/jandamanateesolid-webfont.woff') format('woff'),
+         url('JandaManateeSolid/jandamanateesolid-webfont.ttf') format('truetype'),
+         url('JandaManateeSolid/jandamanateesolid-webfont.svg#janda_manatee_solidregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*FABFELTSCRIPT*/
+@font-face {
+    font-family: 'Fabfelt Script';
+    src: url('fabfeltscriptbold/fabfeltscript-bold.eot');
+    src: url('fabfeltscriptbold/fabfeltscript-bold.eot?#iefix') format('embedded-opentype'),
+         url('fabfeltscriptbold/fabfeltscript-bold.woff2') format('woff2'),
+         url('fabfeltscriptbold/fabfeltscript-bold.woff') format('woff'),
+         url('fabfeltscriptbold/fabfeltscript-bold.ttf') format('truetype'),
+         url('fabfeltscriptbold/fabfeltscript-bold.svg#fabfeltscriptbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*AVENIR BOOK*/
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('AvenirBook/avenir-book-webfont.eot');
+    src: url('AvenirBook/avenir-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('AvenirBook/avenir-book-webfont.woff2') format('woff2'),
+         url('AvenirBook/avenir-book-webfont.woff') format('woff'),
+         url('AvenirBook/avenir-book-webfont.ttf') format('truetype'),
+         url('AvenirBook/avenir-book-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
